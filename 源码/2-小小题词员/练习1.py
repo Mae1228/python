@@ -1,0 +1,15 @@
+'''小小提词员-阶段1'''
+#提词器
+print('己亥杂诗（其五）')
+print('浩荡')
+print('离愁')
+print('白日斜,')
+print('吟鞭')
+print('东指')
+print('即天涯。')
+print('落红')
+print('不是')
+print('无情物,')
+print('化作' )
+print('春泥')
+print('更护花。')

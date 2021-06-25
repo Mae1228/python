@@ -1,0 +1,80 @@
+一、成员修饰符
+    共有成员
+    私有成员, __字段名
+        - 无法直接访问，只能间接访问
+        
+    class Foo:
+        def __init__(self,name,age):
+            self.name = name
+            #self.age = age
+            self.__age = age
+
+    obj = Foo()
+    obj.name
+    #obj.age
+    obj.__age
+    
+
+二、特殊成员
+    __init__     类()自动执行
+    __del__
+    __call__     对象()  类()() 自动执行
+    __int__      int(对象) 
+    __str__      str()
+    
+    __add__
+    __dict__     # 讲对象中封装的所有内容通过字典的形式返回
+    __getitem__  # 切片（slice类型）或者索引
+    __setitem__
+    __delitem__
+    
+    __iter__
+                # 如果类中有 __iter__ 方法，对象=》可迭代对象
+                # 对象.__iter__() 的返回值： 迭代器
+                # for 循环，迭代器，next
+                # for 循环，可迭代对象，对象.__iter__()，迭代器，next
+                # 1、执行li对象的类F类中的 __iter__方法，并获取其返回值
+                # 2、循环上一步中返回的对象
+    
+三、metaclass,类的祖宗
+    a. Python中一切事物都是对象
+    b. 
+        class Foo:
+            pass
+            
+            
+        obj = Foo()
+        # obj是对象，Foo类
+        # Foo类也是一个对象，type的对象
+
+    c. 
+        类都是type类的对象   type(..)
+        “对象”都是以类的对象 类()
+        
+四、异常处理
+    
+    raise Exception('数据库处理错误')
+
+
+五、反射
+    
+
+
+六、单例模式
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

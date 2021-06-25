@@ -1,0 +1,133 @@
+
+上节内容
+变量
+if else
+注释 #  ''' msg  '''
+    3个引号  打印多行
+    ', "" 双单引号的意义是一样的
+
+缩进
+
+
+
+
+本节内容
+pycharm使用
+    集成开发环境（IDE，Integrated Development Environment ）
+    VIM #经典的linux下的文本编辑器
+    Emacs #linux 文本编辑器， 比vim更容易使用
+    Eclipse # Java IDE,支持python, c ,c++
+    Visual Studio # 微软开发的 IDE, python,c++,java,C#
+    notepad++ ,
+    sublime python开发的
+    Pycharm ，是主要用于python开发的ide
+
+    location 位置
+    untitled 未命名的
+    fullstack  全栈
+    interpreter 解释器
+
+
+
+字符格式化输出
+ 占位符 %s  s = string
+       %d  d = digit 整数
+       %f  f = float 浮点数，约等于小数
+
+数据运算
+    数据类型出初识
+        数字
+            整数  int(integer)
+                整型
+                长整型
+                in py3 已经不区分整型与长整型，统一都叫整型
+                in C int age 22 , long age
+        布尔 只有2种状态，分别是
+            真 True
+            假 False
+
+        字符串
+            salary.isdigit()
+            计算机中， 一切皆为对象
+            世界万物，皆为对象，一切对象皆可分类
+
+
+
+
+循环loop
+    有限循环 ，次数限制
+    无限循环=死循环
+    continue 结束本次循环，继续下一次循环
+    break 跳出整个当前的循环
+
+for
+while
+break , continue
+
+
+数据类型
+    整数
+    字符串
+    列表，元组
+        查
+            索引(下标) ，都是从0开始
+            切片
+            .count 查某个元素的出现次数
+            .index 根据内容找其对应的位置
+            "haidilao ge" in a
+        增加
+            a.append() 追加
+            a.insert(index, "内容")
+            a.extend 扩展
+
+        修改
+            a[index] = "新的值"
+            a[start:end] = [a,b,c]
+
+        删除
+            remove("内容")
+            pop(index)
+            del a, del a[index]
+            a.clear() 清空
+
+        排序
+            sort ()
+            reverse()
+
+        身份判断
+            >>> type(a) is list
+            True
+            >>>
+
+    购物车程序
+        salary = 5000
+        1.  iphone6s  5800
+        2.  mac book    9000
+        3.  coffee      32
+        4.  python book    80
+        5.  bicyle         1500
+      >>>:1
+         余额不足，-3000
+      >>>:5
+      已加入bicyle 到你的购物车， 当前余额:3500
+      >>>:quit
+      您已购买一下商品
+      bicyle    1500
+      coffee    30
+      您的余额为:2970
+      欢迎下次光临
+
+
+
+
+
+    字典
+    三级菜单
+
+
+
+
+
+
+
+

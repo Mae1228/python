@@ -1,0 +1,264 @@
+1、如何创建类
+    class 类名：
+        pass
+        
+2、创建方法
+    构造方法，__init__(self,arg)
+        obj = 类('a1')
+    普通方法
+        obj = 类(‘xxx’)
+        obj.普通方法名()
+        
+3、面向对象三大特性之一：封装
+
+    class Bar:
+        def __init__(self, n,a):
+            self.name = n
+            self.age = a
+            self.xue = 'o'
+            
+    b1 = Bar('alex', 123)
+    
+    b2 = Bar('eric', 456)
+    
+    
+4、适用场景：
+        如果多个函数中有一些相同参数时，转换成面向对象
+
+    class DataBaseHelper:
+    
+        def __init__(self, ip, port, username, pwd):
+            self.ip = ip
+            self.port = port
+            self.username = username
+            self.pwd = pwd
+        
+        def add(self,content):
+            # 利用self中封装的用户名、密码等   链接数据
+            print('content')
+            # 关闭数据链接
+        
+        def delete(self,content):
+            # 利用self中封装的用户名、密码等   链接数据
+            print('content')
+            # 关闭数据链接
+        
+        def update(self,content):
+            # 利用self中封装的用户名、密码等   链接数据
+            print('content')
+            # 关闭数据链接
+            
+        def get(self,content):
+            # 利用self中封装的用户名、密码等   链接数据
+            print('content')
+            # 关闭数据链接
+
+s1 = DataBaseHelper('1.1.1.1',3306, 'alex', 'sb')
+
+5、面向对象三大特性之二：继承
+
+    1、继承
+        
+        class 父类：
+            pass
+            
+        class 子类(父类):
+            pass
+            
+    2、重写
+        防止执行父类中的方法
+        
+    3、self永远是执行改方法的调用者
+
+    4、
+       super(子类, self).父类中的方法(...)
+       父类名.父类中的方法(self,...)
+       
+       
+       
+    5、Python中支持多继承
+
+        a. 左侧优先
+        b. 一条道走到黑
+        c. 同一个根时，根最后执行
+    
+6、面向对象三大特性之三：多态
+    ====> 原生多态
+    
+    # Java
+        string v = 'alex'
+        
+        def func(string arg):
+            print(arg)
+            
+        func('alex')
+        func(123)
+    
+    # Python 
+        v = 'alex'
+        
+        def func(arg):
+            print(arg)
+            
+            
+        func(1)
+        func('alex')
+
+    
+ 
+==================================================================
+    
+练习：
+    
+    class Person:
+        
+        def __init__(self,n,a,g,f):
+            
+            self.name = n
+            self.age =a 
+            self.gender =g
+            self.fight = f 
+
+                
+    role_list = []
+    
+    y_n = input('是否创建角色？')
+    if y_n == 'y':
+        name = input('请输入名称:')
+        age = input('请输入名称:')
+        ...
+        role_list.append(Person(....))
+        
+    # role_list,1,2 
+        
+        
+======================================================= 面向对象中高级 ========================================================
+
+
+class Foo:
+
+    def __init__(self, name):
+        # 普通字段
+        self.name = name
+
+    # 普通方法
+    def show(self):
+        print(self.name)
+
+obj = Foo('alex')
+obj.name
+obj.show()
+
+
+类成员：
+    # 字段
+        - 普通字段，保存在对象中，执行只能通过对象访问
+        - 静态字段，保存在类中，  执行 可以通过对象访问 也可以通过类访问
+        
+    # 方法
+        - 普通方法，保存在类中，由对象来调用，self=》对象
+        - 静态方法，保存在类中，由类直接调用
+        -   类方法，保存在类中，由类直接调用，cls=》当前类
+
+    ########　应用场景：
+        如果对象中需要保存一些值，执行某功能时，需要使用对象中的值　－＞　普通方法
+        不需要任何对象中的值，静态方法
+        
+        
+    # 属性，特性
+        - 不伦不类
+        
+    
+    
+    
+    
+中国的所有省份，用面向对象知识表示？
+
+class Province:
+    # 静态字段，属于类
+    country =  '中国'
+    
+    
+    def __init__(self, name):
+        # 普通字段，属于对象
+        self.name = name
+        
+henan = Province('河南')
+henan.name
+henan.name = "河南南"
+
+
+#hebei = Province('河北')
+
+# Province.country
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
