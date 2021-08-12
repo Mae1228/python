@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/2021暑假课/因数/yin数.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2021暑假课/因数/一个完数.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/源码/【17】光速搬运工-课程资料/学习日记.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/源码/【17】光速搬运工-课程资料/自传.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/18.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/绝句.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/绝句v1.0.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/静夜思.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/静夜思1.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/静夜思2.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/静夜思v1.0.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/源码/【18】诗文排版机-课程资料/静夜思v2.0.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/源码/【19】图书管理员-课程资料/19.py" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

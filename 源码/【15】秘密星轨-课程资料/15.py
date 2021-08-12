@@ -100,32 +100,33 @@
 # c：复制
 # v：粘贴
 
-import turtle as t
-import random
-t.speed(0)
-t.penup()
-t.goto(-400,-400)
-t.pendown()#落笔
-t.fillcolor('black')
-t.begin_fill()
-for i in range(4):
-    t.forward(800)
-    t.left(90)
-t.end_fill()
-t.pencolor('cyan')
-for i in range(100):
-    t.penup()
-    t.goto(0,0)
-    r=random.randint(1,400)#半径
-    h=random.randint(1,360)#弧长
-    t.forward(r)#半径10
-    t.left(90)
-    t.pendown()
-    t.circle(r,h)
-t.hideturtle()
-t.done()
+# import turtle as t
+# import random
+# t.speed(0)
+# t.penup()
+# t.goto(-400,-400)
+# t.pendown()#落笔
+# t.fillcolor('black')
+# t.begin_fill()
+# for i in range(4):
+#     t.forward(800)
+#     t.left(90)
+# t.end_fill()
+# t.pencolor('cyan')
+# for i in range(100):
+#     t.penup()
+#     t.goto(0,0)
+#     r=random.randint(1,400)#半径
+#     h=random.randint(1,360)#弧长
+#     t.forward(r)#半径10
+#     t.left(90)
+#     t.pendown()
+#     t.circle(r,h)
+# t.hideturtle()
+# t.done()
 
 
+'''---------------------------------------------------------------'''
 
 
 

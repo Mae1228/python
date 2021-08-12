@@ -11,6 +11,8 @@ list.pop(index)方法用于移除列表中的一个元素，再返回该元素�
                  a=b
                  b=t
 
+为0或空字符串都是False
+
 '''
 '''实践一'''
 # import random
@@ -90,4 +92,48 @@ list.pop(index)方法用于移除列表中的一个元素，再返回该元素�
 
 
 '''---------------------------------------------------------------------------------'''
+
+
+import random
+mylist = [['时空魔神', '海底猿人', '植物怪兽', '火山怪鸟', '刺客超兽'],
+          ['猪圈', '厕所里', '房顶上', '办公室'],
+          ['引起大规模停电', '抄作业', '喜极而泣', '偷西瓜', '玩火自焚', '倒立狂奔']]
+temp=[[],[],[]]     #接收移除的元素
+while True:
+    if len(mylist[0])!=0 and len(mylist[1])!=0 and len(mylist[2])!=0:
+        a=input('***Press Enter***见证怪兽的时刻到了：')
+        if a=='':   #按下enter
+            n=random.randint(0,len(mylist[0])-1)    #下标
+            w=random.randint(0,len(mylist[1])-1)
+            d=random.randint(0,len(mylist[2])-1)
+            name=mylist[0].pop(n)   #值
+            temp[0].append(name)
+            where = mylist[1].pop(w)  # 值
+            temp[1].append(where)
+            doing = mylist[2].pop(d)  # 值
+            temp[2].append(doing)
+            print(name,'在',where,doing)
+        else:   #输入其他内容
+            break
+    else:   #其中一个子列表为空列表
+        if len(mylist[0])==0:
+            mylist[0],temp[0]=temp[0],mylist[0]
+        if len(mylist[1])==0:
+            mylist[1],temp[1]=temp[1],mylist[1]
+        if len(mylist[2])==0:
+            mylist[2],temp[2]=temp[2],mylist[2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

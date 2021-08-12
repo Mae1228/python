@@ -70,33 +70,6 @@ range()方法：start:默认为0    stop：不包括stop本身    step：步长�
 
 
 
-a=int(input('输入数字:'))
-i=1#start
-while i<=a:#stop
-    print(' '*(a-i)+'~'*(2*i-1))
-    i+=1#step
-
-for j in range(1,a//2+1):
-    print(' '*(a-2)+'^'*3)
-
-
-# a=int(input('输入一个数字：'))
-# astr=str(a)
-# s=''
-# for w in range(len(astr)-1,-1,-1):
-#     s+=astr[w]
-#     print(s)
-#
-# if s==astr:
-#     print('y')
-# else:
-#     print('n')
-
-
-
-
-
-
 
 
 

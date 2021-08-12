@@ -95,40 +95,28 @@
 
 
 
-import turtle as t
-t.speed(10)
-t.penup()
-t.goto(0,-200)
-t.pendown()
-r=200
-for i in range(1,11):
-    if i%2==0:
-        t.fillcolor('white')
-    else:
-        t.fillcolor('black')
-    t.begin_fill()
-    t.circle(r)
-    t.end_fill()
-    r-=20
-t.hideturtle()
-t.done()
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+# import turtle as t
+# t.speed(0)
+# t.penup()
+# t.goto(0,-200)
+# r = 200
+# for i in range(1,11,1):
+#     if i%2==0:
+#         t.fillcolor('white')
+#     else:
+#         t.fillcolor('black')
+#     t.begin_fill()
+#     t.circle(r)
+#     t.end_fill()
+#     r-=20#r=r-20
+# t.hideturtle()
+# t.done()
 
 
 

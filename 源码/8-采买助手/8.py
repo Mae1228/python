@@ -17,8 +17,7 @@ break：跳出    只能在循环体进行使用
 
 
 ''''''
-# import random
-# print(random.randint(1,3))
+
 
 
 
@@ -108,13 +107,14 @@ break：跳出    只能在循环体进行使用
 
 
 
-a=int(input('请输入一个数：'))
-while a<=1000:
-    a+=1
-    if a%7==0 or '7' in str(a):
-        continue
-    print(a)
-print('7jies')
+
+
+
+
+
+
+
+
 
 
 

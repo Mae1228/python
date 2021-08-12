@@ -8,7 +8,7 @@
 with open('静夜思v1.0.txt') as f1:
     data1 = f1.readline()    
     data2 = f1.readline()   
-    datas = f1.readlines()  
+    datas = f1.readlines()
 with open('静夜思v2.0.txt', 'w') as f2:
     f2.write("   "+data1)
     f2.write("唐朝 "+data2)

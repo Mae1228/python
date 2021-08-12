@@ -54,6 +54,19 @@ A in B：前面是否存在后面
 
 
 
+# x=input('请输入您的性别:')
+# t=input('请输入您的体重（kg）:')
+# s=input('请输入您的身高（cm）:')
+# if x=='女':
+#     c=t-(s-110)
+#     if c>3:
+#         print('减')
+#     elif c<-3:
+#         print('')
+#
+# elif x=='男':
+
+
 
 
 

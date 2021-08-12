@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/源码/0-python-codemao-github/.idea/0-python-codemao-github.iml" filepath="$PROJECT_DIR$/源码/0-python-codemao-github/.idea/0-python-codemao-github.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python.iml" filepath="$PROJECT_DIR$/.idea/python.iml" />
-      <module fileurl="file://$PROJECT_DIR$/源码/python20191111/.idea/python20191111.iml" filepath="$PROJECT_DIR$/源码/python20191111/.idea/python20191111.iml" />
     </modules>
   </component>
 </project>

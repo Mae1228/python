@@ -64,14 +64,14 @@ for。。。else。。。：for循环正常结束后（无break）执行else语�
 
 
 
-a1=int(input('请输入开始数：'))
-a2=int(input('请输入结束数：'))
-for j in range(a1,a2+1,1):
-    for i in range(2,j,1):#2 3 4 5 6
-        if j%i==0:
-            break
-    else:
-        print(j,'是质数')
+# a1=int(input('请输入开始数：'))
+# a2=int(input('请输入结束数：'))
+# for j in range(a1,a2+1,1):
+#     for i in range(2,j,1):#2 3 4 5 6
+#         if j%i==0:
+#             break
+#     else:
+#         print(j,'是质数')
 
 
 
@@ -82,6 +82,61 @@ for j in range(a1,a2+1,1):
 #         break
 # else:
 #     print(a,'是质数')
+
+
+
+
+
+
+
+# a=int(input('请输入数字：'))
+# b=0   #质数     能被整除  b=1
+# for i in range(2,a,1):#i=2 3 ...
+#     if a%i==0:
+#         b=1
+# if b==0:
+#     print(a,'yes')
+# else:
+#     print(a,'no')
+
+
+# a=int(input('请输入数字：'))
+# for i in range(2,a,1):#i=2 3 ...
+#     if a%i==0:
+#         print(a, 'no')
+#         break
+# else:
+#     print(a, 'yes')
+
+
+# a1=int(input('请输入开始数：'))
+# a2=int(input('请输入结束数：'))
+# for j in range(a1,a2+1,1):#j=10 11 ...19
+#     #j=11
+#     for i in range(2,j,1):
+#         if j%i==0:
+#             break
+#     else:
+#         print(j)
+
+
+
+# a=int(input('请输入数字：'))
+# astr=str(a)
+# newstr=''
+# i=len(astr)-1#下标
+# while i >= 0:
+#     newstr+=astr[i]
+#     i-=1
+# if astr==newstr:
+#     print('yes')
+# else:
+#     print('no')
+
+
+
+
+
 
 
 

@@ -105,8 +105,9 @@ print(a)
 #         break
 
 # b=0
-while '':
-    print(1)
-print(2)
+# while '':
+#     print(1)
+# print(2)
+
 
 

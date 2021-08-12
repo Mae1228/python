@@ -49,6 +49,6 @@ elif msg1 == 'n':
         money += 10
     else:
         money += 6
-    print(msg2, msg2, msg4,'共', money, '元')
+    print(msg2, msg3, msg4,'共', money, '元')
 else:
     print('输入错误，请输入y或者n')

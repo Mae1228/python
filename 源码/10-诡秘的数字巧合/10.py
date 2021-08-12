@@ -119,7 +119,18 @@ break：只能跳出离他最近的循环
 
 
 
-
+# a=int(input('输入数字：'))
+# astr=str(a)
+# t=0
+# w=len(astr)-1
+# while t<w:
+#     if astr[t]!=astr[w]:
+#         print(a,'不是回文数')
+#         break
+#     t+=1
+#     w-=1
+# else:
+#     print(a,'是回文数')
 
 
 

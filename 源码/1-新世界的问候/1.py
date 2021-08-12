@@ -29,9 +29,6 @@
 
 
 
-print(111,end='')
-print(222)
-print(333)
 
 
 
@@ -59,4 +56,25 @@ print(333)
 
 
 
+
+
+
+
+
+
+n=input('输入姓名：')
+a=input('输入爱好：')
+f=input('输入未来的目标：')
+print('姓名：',n,sep='')
+print('爱好：',end='')
+print(a)
+print('未来的目标：',end='')
+print(f)
+
+
+
+'''
+print(内容,end='换行符')：取消换行
+print(内容1,内容2,...,sep='间隔符')：逗号进行拼接，取消空格
+'''
 

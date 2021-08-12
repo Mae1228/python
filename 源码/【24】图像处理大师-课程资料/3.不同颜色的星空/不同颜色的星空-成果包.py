@@ -21,7 +21,7 @@ for x in range(width):
         r = 255 - r
         b = 255 - b
         g = 255 - g
-        img_array[x, y] = (r, g, b)
+        img_array[x, y] = (g, g, b)
         #img_array[x, y] = (g, r, b)
         #img_array[x, y] = (r, r, r)
         #……
